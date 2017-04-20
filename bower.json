@@ -1,0 +1,21 @@
+{
+  "name": "express-ab",
+  "description": "NodeJS Express endpoint A/B testing",
+  "main": "src/benchmark.js",
+  "authors": [
+    "Shaun Scovil <sscovil@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/sscovil/express-ab#readme",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/lib/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "dimple": "2.3.0"
+  }
+}

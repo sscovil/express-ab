@@ -1,0 +1,35 @@
+{
+  "name": "express-ab",
+  "version": "1.0.0",
+  "description": "NodeJS Express endpoint A/B testing",
+  "main": "index.js",
+  "scripts": {
+    "benchmark": "node ./src/benchmark.js",
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sscovil/express-ab.git"
+  },
+  "author": "Shaun Scovil <sscovil@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sscovil/express-ab/issues"
+  },
+  "homepage": "https://github.com/sscovil/express-ab#readme",
+  "dependencies": {
+    "bluebird": "3.5.0",
+    "body-parser": "1.17.1",
+    "express": "4.15.2",
+    "lodash": "4.17.4",
+    "request": "2.81.0",
+    "request-promise": "4.2.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "chai-http": "3.0.0",
+    "mocha": "3.2.0",
+    "sinon": "2.1.0"
+  }
+}
